@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+h3 {
+  @apply capitalize text-brand-darkGray group-hover:text-white font-bold  text-xl md:text-2xl;
+}
